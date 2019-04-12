@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Animal Rescuer</title>
+
+    <link rel="stylesheet"  type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body bgcolor= "#f5deb3">
+
+<h1>Animal Rescuer</h1>
+
+<table id="animal-rescuers">
+    <thead>
+    <tr>
+        <th>Name</th>
+        <th>Animal name</th>
+        <th>Won Games</th>
+        <th>Edit</th>
+        <th>Delete</th>
+    </tr>
+    </thead>
+    <tfoot>
+    <tr>
+        <td colspan="12">
+            <div class="links"><a href="#">&laquo;</a> <a class="active" href="#">1</a> <a href="#">2</a> <a href="#">3</a> <a href="#">4</a> <a href="#">&raquo;</a></div>
+        </td>
+    </tr>
+    </tfoot>
+    <tbody>
+    <!-- <tr>
+          <td>Learn HTML</td>
+          <td>15.03</td>
+          <td><input type="checkbox" title="Done"></td>
+      </tr>
+       <tr>
+          <td>Learn CSS</td>
+          <td>16.03</td>
+          <td><input type="checkbox" title="Done"></td>
+
+      </tr> -->
+    </tbody>
+</table>
+
+<h3>Add Phone-book log :</h3>
+<form id="create-animal-rescuer-form">
+    <input type="text" name="name" title="Name" placeholder="Name">
+    <input type="text" name="rescuedAnimalName" title="Animal Name" placeholder="Animal Name">
+    <input type="number" name="wonGames" title="Won Games" placeholder="Won Games">
+    <button type="submit" title="Save">&#128190;</button>
+    <button type="reset" style = "font-size:15px"><i class="fa fa-ban"></i></button>
+</form>
+
+<script src="js/lib/jquery-3.3.1.js"></script>
+<script src="js/animal-rescuer.js"></script>
+
+</body>
+</html>

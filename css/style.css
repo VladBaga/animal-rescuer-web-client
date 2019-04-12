@@ -1,0 +1,96 @@
+#animal-rescuers {
+    margin: 1em 0;
+    width: 100%;
+    overflow: hidden;
+    background: #fff;
+    color: #024457;
+    border-radius: 10px;
+    border: 1px solid #167f92;
+}
+#animal-rescuers tr {
+    border: 1px solid #d9e4e6;
+}
+#animal-rescuers tr:nth-child(odd) {
+    background-color: #eaf3f3;
+}
+#animal-rescuers th {
+    display: none;
+    border: 1px solid #fff;
+    background-color: #167f92;
+    color: #fff;
+    padding: 1em;
+}
+#animal-rescuers th:first-child {
+    display: table-cell;
+    text-align: center;
+}
+#animal-rescuers th:nth-child(2) {
+    display: table-cell;
+}
+#animal-rescuers th:nth-child(2) span {
+    display: none;
+}
+#animal-rescuers th:nth-child(2):after {
+    content: attr(data-th);
+}
+@media (min-width: 480px) {
+    #animal-rescuers th:nth-child(2) span {
+        display: block;
+    }
+    #animal-rescuers th:nth-child(2):after {
+        display: none;
+    }
+#animal-rescuers td {
+    display: block;
+    word-wrap: break-word;
+    max-width: 7em;
+}
+#animal-rescuers td:first-child {
+    display: table-cell;
+    text-align: center;
+    border-right: 1px solid #d9e4e6;
+}
+@media (min-width: 480px) {
+    #animal-rescuers td {
+        border: 1px solid #d9e4e6;
+    }
+}
+#animal-rescuers th,
+#animal-rescuers td {
+    text-align: center;
+    margin: 0.5em 1em;
+}
+@media (min-width: 480px) {
+    #animal-rescuers th,
+    #animal-rescuers td {
+        display: table-cell;
+        padding: 1em;
+    }
+}
+
+body {
+    padding: 0 2em;
+    font-family: Arial, sans-serif;
+    color: #024457;
+    background: #f2f2f2;
+}
+footer{
+        font-size: 13px;
+        font-weight: bold;
+        color: #FFFFFF;
+        background: #167f92;
+        background: -moz-linear-gradient(top, #167f92 0%, #167f92 66%, #167f92 100%);
+        background: -webkit-linear-gradient(top, #167f92 0%, #167f92 66%, #167f92 100%);
+        background: linear-gradient(to bottom, #167f92 0%, #167f92 66%, #167f92 100%);
+        border-top: 5px solid #024457;
+    }
+
+h1 {
+    font-family: Verdana;
+    font-weight: normal;
+    color: #024457;
+}
+h1 span {
+    color: #167f92;
+}
+}
